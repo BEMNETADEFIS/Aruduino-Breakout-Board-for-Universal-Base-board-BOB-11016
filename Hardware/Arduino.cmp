@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 5/4/2015 12:02:54 PM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 8/10/2015 7:25:29 PM
 
 BeginCmp
 TimeStamp = /55092C6A;
@@ -46,14 +46,21 @@ BeginCmp
 TimeStamp = /55092C76;
 Reference = IC1;
 ValeurCmp = ATMEGA8-P;
-IdModule  = DIP-28__300_ELL;
+IdModule  = Sockets_DIP:DIP-28__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /55C82C64;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /55471021;
 Reference = P1;
 ValeurCmp = CONN_5X2;
-IdModule  = VASCH5x2;
+IdModule  = Connect:VASCH5x2;
 EndCmp
 
 BeginCmp
@@ -85,6 +92,13 @@ IdModule  = SIL-10;
 EndCmp
 
 BeginCmp
+TimeStamp = /55C82B83;
+Reference = P6;
+ValeurCmp = CONN_7;
+IdModule  = SIL-7;
+EndCmp
+
+BeginCmp
 TimeStamp = /55092C20;
 Reference = R1;
 ValeurCmp = 1k;
@@ -109,14 +123,14 @@ BeginCmp
 TimeStamp = /55092C46;
 Reference = SW1;
 ValeurCmp = SPST;
-IdModule  = SW_PB_2pin_xl;
+IdModule  = SW_PUSH_SMALL_2pin_xl;
 EndCmp
 
 BeginCmp
 TimeStamp = /55092C70;
 Reference = X1;
 ValeurCmp = CRYSTAL;
-IdModule  = HC-49V;
+IdModule  = Discret:HC-49V;
 EndCmp
 
 EndListe

@@ -1,6 +1,6 @@
-update=3/18/2015 2:04:09 PM
+update=8/10/2015 3:34:18 PM
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=
@@ -40,14 +40,21 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=Arduino.net
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadDrill=0.998220000000
+PadDrillOvalY=0.998220000000
+PadSizeH=1.778000000000
+PadSizeV=1.778000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -60,6 +67,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -77,11 +85,6 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=F:/DESIGN CENTRAL/Design Centrail System back up/Custom XL/SW_2PIN_XL
-LibDir=
-[general]
-version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName18=E:/Custom XL/SW_PUSH_SMALL_2pin_xl
+LibName19=E:/DESIGN CENTRAL/Design Centrail System back up/Custom XL/ee_logo
+LibName20=E:/DESIGN CENTRAL/Design Centrail System back up/Custom XL/ee/ee_logo
