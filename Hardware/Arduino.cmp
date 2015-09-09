@@ -1,24 +1,31 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 8/18/2015 10:17:02 AM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 9/9/2015 9:24:56 AM
 
 BeginCmp
 TimeStamp = /55092C6A;
 Reference = C1;
 ValeurCmp = 22pF;
-IdModule  = SM1206;
+IdModule  = ee:SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /55092C64;
 Reference = C2;
 ValeurCmp = 22pF;
-IdModule  = SM1206;
+IdModule  = ee:SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /55092CAB;
 Reference = C3;
 ValeurCmp = 100nF;
-IdModule  = SM1206;
+IdModule  = ee:SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EFADFD;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = ee:SM1206;
 EndCmp
 
 BeginCmp
@@ -54,13 +61,6 @@ TimeStamp = /55092C76;
 Reference = IC1;
 ValeurCmp = ATMEGA8-P;
 IdModule  = Sockets_DIP:DIP-28__300_ELL;
-EndCmp
-
-BeginCmp
-TimeStamp = /55C82C64;
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
